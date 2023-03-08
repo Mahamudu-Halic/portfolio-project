@@ -1,0 +1,43 @@
+@import './variables';
+@import './mixins';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #080808;
+    color: $primaryColor;
+}
+
+img{
+    width: 50%;
+}
+
+.sub-title{
+    @include subTitle;
+}
+
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: solid 1px $secondayColor;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: $primaryColor;
+    transition: 0.5s ease;
+}
+
+.btn.btn2{
+    display: inline-block;
+    background: $secondayColor;
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <script src="https://kit.fontawesome.com/e0b7662394.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="./images/logo3.png" alt="">
+                </div>
+
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Full-Stack Software Developer</p>
+                <h1>Hi, I'm <span>Halic</span> <div>Mahamudu From Ghana</div></h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- ----------about----------- -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="./images/about1.png" alt="">
+                </div>
+                <div class="col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo et dignissimos, vel, veniam voluptate ea enim, suscipit cum inventore consectetur quibusdam fugiat ducimus nobis sunt neque officia. Placeat delectus pariatur adipisci maiores atque tenetur molestias nesciunt cumque debitis, quis qui hic, nisi porro cupiditate rerum sed? Iure possimus distinctio eaque.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><div>
+                                Lorem ipsum dolor sit amet.
+                            </div></li>
+                            <li><span>Web Development</span><div>
+                                Lorem ipsum dolor sit amet.
+                            </div></li>
+                            <li><span>App Development</span><div>
+                                Lorem ipsum dolor sit amet.
+                            </div></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><div>
+                                Lorem ipsum dolor sit amet.
+                            </div></li>
+                            <li><span>2019 - 2021</span><div>
+                                Lorem ipsum dolor sit amet.
+                            </div></li>
+                            <li><span>2017 - 2019</span><div>
+                                Lorem ipsum dolor sit amet.
+                            </div></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><div>
+                                Lorem ipsum dolor sit amet.
+                            </div></li>
+                            <li><span>2016</span><div>
+                                Lorem ipsum dolor sit amet.
+                            </div></li>
+                            <li><span>2014</span><div>
+                                Lorem ipsum dolor sit amet.
+                            </div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------services--------- -->
+    <section id="services">
+        <div class="container">
+            <h2 class="sub-title">My Services</h2>
+
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatum accusamus nam nihil recusandae earum quis, totam ducimus omnis deleniti.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatum accusamus nam nihil recusandae earum quis, totam ducimus omnis deleniti.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatum accusamus nam nihil recusandae earum quis, totam ducimus omnis deleniti.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -----------portfolio----------- -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="subtitle">
+                My Work
+            </h2>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work1.jpg" alt="">
+                    <div class="layer">
+                        <h3 class="title">Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic fugiat perspiciatis enim aliquam nesciunt modi, natus ullam neque odit ipsum.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work2.jpg" alt="">
+                    <div class="layer">
+                        <h3 class="title">Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic fugiat perspiciatis enim aliquam nesciunt modi, natus ullam neque odit ipsum.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work3.jpg" alt="">
+                    <div class="layer">
+                        <h3 class="title">Online App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic fugiat perspiciatis enim aliquam nesciunt modi, natus ullam neque odit ipsum.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </section>
+
+    <!-- ----------contact--------- -->
+    <section id="contact">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-left">
+                    <h2 class="sub-title">Contact Me</h2>
+                    <p><i class="fa-solid fa-paper-plane"></i> mahamuduhalic@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +233552802788</p>
+
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/halic.mahamudu"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/mahamuduhalic"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.secure.instagram.com/halicmahamudu/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/halic-mahamudu-361946216/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                    <a href="./images/dataBase.pdf" class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="col-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; Halic.</p>
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+</html>
