@@ -1,8 +1,8 @@
 import { githubUrl, linkedinUrl, name, whatsappUrl } from "@/constants";
+import { Headphones } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowDiagonal, Github, Linkedin, Whatsapp } from "./icons";
-import { Headphones } from "lucide-react";
+import { Github, Linkedin, Whatsapp } from "./icons";
 
 const Landing = () => {
   return (
@@ -17,7 +17,6 @@ const Landing = () => {
         </p>
 
         <div className="flex items-center gap-4 flex-wrap">
-         
           <Link
             href={"#contact"}
             className="rounded-full bg-gray-500 flex justify-center items-center w-12 h-12 hover:scale-110 transition-all text-green-400"

@@ -26,7 +26,7 @@ const ContactForm = () => {
     formState: { errors, isSubmitting },
   } = form;
 
-  const onSubmit = async (data: FormData) => {
+  const onSubmit = async () => {
     try {
       await emailjs.sendForm(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,

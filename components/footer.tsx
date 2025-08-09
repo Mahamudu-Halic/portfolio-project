@@ -10,7 +10,7 @@ const Footer = () => {
       <footer className="flex lg:flex-row flex-col gap-6 lg:gap-4 justify-between container">
         <div className="flex flex-col gap-4 flex-1">
           <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold font-bebas-neue">
-            Let's connect
+            Let&apos;s connect
           </h2>
           <p className="text-gray-400 text-sm lg:text-base">
             Say hello at{" "}
@@ -22,7 +22,7 @@ const Footer = () => {
             </Link>
           </p>
           <p className="text-gray-400 text-sm lg:text-base">
-            For more info, here's my{" "}
+            For more info, here&apos;s my{" "}
             <DownloadResumeButton
               className="text-white border-b border-green-400"
               text="resume"
@@ -41,7 +41,7 @@ const Footer = () => {
             </Link>
           </div>
           <p className="text-gray-400 mt-auto hidden lg:block text-sm lg:text-base">
-            © 2025 Halic Mahamudu. All rights reserved.
+            &copy; 2025 Halic Mahamudu. All rights reserved.
           </p>
         </div>
 
