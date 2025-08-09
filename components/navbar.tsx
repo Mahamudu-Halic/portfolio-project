@@ -28,7 +28,7 @@ const Navbar = () => {
 
         <Sheet open={open} onOpenChange={setOpen}>
           <SheetTrigger asChild className="lg:hidden">
-            <button>
+            <button aria-label="Toggle menu" type="button">
               <AlignJustify />
             </button>
           </SheetTrigger>
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="hover:text-green-400">
-                <Link href="#about" onClick={() => setOpen(false)}>
+                <Link href="/#about" onClick={() => setOpen(false)}>
                   About
                 </Link>
               </li>

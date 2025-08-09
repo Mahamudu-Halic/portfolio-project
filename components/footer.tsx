@@ -16,6 +16,7 @@ const Footer = () => {
             Say hello at{" "}
             <Link
               className="text-white border-b border-green-400"
+              aria-label="Send email"
               href={`mailto:${email}`}
             >
               {email}
@@ -30,13 +31,13 @@ const Footer = () => {
           </p>
 
           <div className="flex gap-4 items-center">
-            <Link href={linkedinUrl} target="_blank">
+            <Link href={linkedinUrl} target="_blank" aria-label="Linkedin">
               <Linkedin />
             </Link>
-            <Link href={githubUrl} target="_blank">
+            <Link href={githubUrl} target="_blank" aria-label="Github">
               <Github />
             </Link>
-            <Link href={whatsappUrl} target="_blank">
+            <Link href={whatsappUrl} target="_blank" aria-label="Whatsapp">
               <Whatsapp />
             </Link>
           </div>

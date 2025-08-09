@@ -17,10 +17,10 @@ const AboutPage = () => {
           About <span className="text-green-400">Me</span>
         </h2>
         <div className="flex-1 space-y-5">
-          <h4 className="text-base lg:text-lg">
+          <h3 className="text-base lg:text-lg">
             I am a <span className="text-green-400">front-end</span> developer
             based in Ghana. Has Computer Science background.{" "}
-          </h4>
+          </h3>
           <p className="text-gray-400  mb-10 text-sm lg:text-base">
             I am a <span className="text-green-400">front-end</span> developer
             based in Ghana looking for exciting opportunities. Has Computer
@@ -42,6 +42,7 @@ const AboutPage = () => {
               href={linkedinUrl}
               target="_blank"
               className="rounded-full bg-gray-500 flex justify-center items-center w-12 h-12 hover:scale-110 transition-all"
+              aria-label="Linkedin"
             >
               <Linkedin />
             </Link>
@@ -49,12 +50,14 @@ const AboutPage = () => {
               href={githubUrl}
               target="_blank"
               className="rounded-full bg-gray-500 flex justify-center items-center w-12 h-12 hover:scale-110 transition-all"
-            >
+              aria-label="Github"
+              >
               <Github />
             </Link>
             <Link
               href={whatsappUrl}
               target="_blank"
+              aria-label="Whatsapp"
               className="rounded-full bg-gray-500 flex justify-center items-center w-12 h-12 hover:scale-110 transition-all"
             >
               <Whatsapp />

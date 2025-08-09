@@ -19,6 +19,7 @@ const Landing = () => {
         <div className="flex items-center gap-4 flex-wrap">
           <Link
             href={"#contact"}
+            aria-label="Contact me"
             className="rounded-full bg-gray-500 flex justify-center items-center w-12 h-12 hover:scale-110 transition-all text-green-400"
           >
             <Headphones />
@@ -26,6 +27,7 @@ const Landing = () => {
           <Link
             href={linkedinUrl}
             target="_blank"
+            aria-label="Linkedin"
             className="rounded-full bg-gray-500 flex justify-center items-center w-12 h-12 hover:scale-110 transition-all"
           >
             <Linkedin />
@@ -33,12 +35,14 @@ const Landing = () => {
           <Link
             href={githubUrl}
             target="_blank"
+            aria-label="Github"
             className="rounded-full bg-gray-500 flex justify-center items-center w-12 h-12 hover:scale-110 transition-all"
           >
             <Github />
           </Link>
           <Link
             href={whatsappUrl}
+            aria-label="Whatsapp"
             target="_blank"
             className="rounded-full bg-gray-500 flex justify-center items-center w-12 h-12 hover:scale-110 transition-all"
           >

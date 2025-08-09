@@ -4,7 +4,7 @@ export const linkedinUrl =
   "https://www.linkedin.com/in/halic-mahamudu-48174a349/";
 export const githubUrl = "https://github.com/Mahamudu-Halic";
 export const whatsappUrl =
-  "https://wa.me/+233507755962?text=Hi Halic, I saw your portfolio and wanted to connect about a Frontend Development opportunity. Let's chat!";
+  "https://wa.me/+233552802788?text=Hi Halic, I saw your portfolio and wanted to connect about a Frontend Development opportunity. Let's chat!";
 
 export const projects = [
   {
