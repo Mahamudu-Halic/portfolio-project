@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://mahamuduhalic.vercel.app/sitemap.xml
